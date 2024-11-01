@@ -8,7 +8,7 @@ tmp/
 build
 htmlcov
 
-*.tsv
+*.[ct]sv
 *.org
 *.pdf
 *.tex

@@ -14,8 +14,7 @@ import seaborn as sn
 
 
 def accuracy(y_true: torch.Tensor, y_pred: torch.Tensor):
-    """Calculate Accuracy of predictions.
-
+    """
     Returns
     -------
     torch.Tensor
@@ -48,7 +47,6 @@ def f1_loss(
     - https://www.kaggle.com/rejpalcz/best-loss-function-for-f1-score-metric
     - https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score
     - https://discuss.pytorch.org/t/calculating-precision-recall-and-f1-score-in-case-of-multi-label-classification/28265/6
-
     """
     assert y_true.ndim == 1
     assert y_pred.ndim == 1 or y_pred.ndim == 2
@@ -71,7 +69,7 @@ def f1_loss(
     return f1
 
 
-if False:
+if True:
     from sqlalchemy import create_engine
 
     engine = create_engine("mysql+pymysql://root:1234@localhost/ares_local")
@@ -83,17 +81,18 @@ if False:
         conn,
     )
 
-
-df = pd.read_csv("DB.csv")
+# df = pd.read_csv("DB.csv")
+print(df.shape)
 df = df.dropna()
+# df = df[df["descricao"].str.len() < 20000]
 df = df[df["descricao"].str.contains("Vistos.*Int")]
 # Salvar um arquivo no disco
 # df.to_csv("DB.csv", index=False)
-size_samples = 10000
+size_samples = 15000
+print(df.shape)
 df = df.sample(size_samples, random_state=42)
 
-print(df.shape)
-
+print("## Encoding text with BERT")
 y = torch.tensor(df["saida"].to_numpy())
 bertikal = BertTokenizer.from_pretrained("BERTikal/")
 encoded = bertikal(
@@ -138,6 +137,7 @@ criterion = nn.NLLLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
 f1_score = []
 epoch = 100
+print("iniciando treinamento")
 for epoch in range(epoch):  # loop over the dataset multiple times
     running_loss = 0.0
     correct = 0
