@@ -74,7 +74,7 @@ def f1_loss(
 if False:
     from sqlalchemy import create_engine
 
-    engine = create_engine("mysql+pymysql://luiz:luiz@localhost/ares_local")
+    engine = create_engine("mysql+pymysql://root:1234@localhost/ares_local")
     conn = engine.connect()
     df = pd.read_sql(
         """SELECT e.descricao, c.id as saida
@@ -85,17 +85,16 @@ if False:
 
 
 df = pd.read_csv("DB.csv")
-# Salvar um arquivo no disco
-# df.to_csv('DB.csv', index=False)
 df = df.dropna()
 df = df[df["descricao"].str.contains("Vistos.*Int")]
-size_samples = 5000
-df = df[:size_samples]
+# Salvar um arquivo no disco
+# df.to_csv("DB.csv", index=False)
+size_samples = 10000
+df = df.sample(size_samples, random_state=42)
 
 print(df.shape)
 
 y = torch.tensor(df["saida"].to_numpy())
-# X = df['vector'].apply(eval).apply(torch.tensor).to_numpy()
 bertikal = BertTokenizer.from_pretrained("BERTikal/")
 encoded = bertikal(
     df["descricao"].astype(str).to_list(),
@@ -104,13 +103,6 @@ encoded = bertikal(
     truncation=True,
     max_length=512,
 )
-# encoded_dataset =  utils.TensorDataset(encoded['input_ids'], encoded['attention_mask'])
-# encoded_dataloader = utils.DataLoader(encoded_dataset, batch_size=8, shuffle=False, pin_memory=True)
-# X = []
-# arr = []
-# for i, data in enumerate(encoded_dataloader, 0):
-#     inputs_ids, att_mask = data
-#     arr.append(bert_model(inputs_ids.cuda(), attention_mask=att_mask.cuda()).last_hidden_state)
 X = nn.utils.rnn.pad_sequence(encoded["input_ids"], batch_first=True, padding_value=0)
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, random_state=42, test_size=0.2

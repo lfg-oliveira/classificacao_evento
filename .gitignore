@@ -12,6 +12,8 @@ htmlcov
 *.org
 *.pdf
 *.tex
+sict*
+*.pkl
 .ipynb_checkpoints/
 .virtual_documents/
 BERTikal/
