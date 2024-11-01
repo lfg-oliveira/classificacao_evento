@@ -1,0 +1,17 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+*.py[cod]
+*.egg
+build
+htmlcov
+
+*.tsv
+*.org
+*.pdf
+*.tex
+.ipynb_checkpoints/
+.virtual_documents/
+BERTikal/

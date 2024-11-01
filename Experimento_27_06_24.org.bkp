@@ -1,0 +1,82 @@
+#+title: Experimento Classificador 27/06/2024
+#+AUTHOR: Luiz Felipe Guidorizzi de Oliveira
+#+DATE: 27/06/2024
+#+LANGUAGE: br
+
+* Experimento
+O experimento foi feito com a intenção de verificar se o classificador pode convergir.
+
+* Pré-processamento dos dados
+Os documentos são as linhas de um banco de dados, onde apenas duas colunas são de interesse. A coluna `descricao` contém o texto que será analisado e a coluna chave externa =`classe_id`=
+que é a classe que deve ser classificada. No contexto jurídico, as movimentações são quando ocorre uma mudança no estado do processo, e muitas vezes possui uma sentença com alguma intimação.
+Algumas movimentações não possuem descrição, portanto foram deixadas de fora dos dados. Das restantes, aproximadamente duzentas mil entradas. Grande parte das entradas estão da seguinte maneira:
+
+Data de Disponibilização: 25/11/2019
+
+Data de Publicação: 26/11/2019
+
+Jornal: Diário Oficial DJ São Paulo
+
+Caderno: CAD41
+
+Local: DJSP - CADERNO 4 JUDICIAL 1ª INSTÂNCIA INTERIOR  EMBU DAS ARTES
+          Cível 1ª Vara JUÍZO DE DIREITO DA 1ª VARA JUDICIAL
+
+Página: 02907
+
+EDITAL DE INTIMACAO DE ADVOGADOS RELACAO N 0990/2019
+
+Processo [Número do processo] - Tutela Cautelar Antecedente - Provas - [Nome do(a) autor(a)]
+- Vistos. 1. Fls. 16: Defiro os beneficios da justica gratuita. Anote-se. 2. Considerando os relatos da autora de que nao recebeu o contrato decorrente do cartao de credito, mas apenas a proposta de adesao, defiro a liminar pretendida, apenas para determinar que a re, no prazo de 05 (cinco) dias, apresente o respectivo contrato mencionado na clausula 1 de fls. 39. No que se referem as faturas de cartao de credito, observa-se que a autora nao demonstrou que requereu sua exibicao expressamente extrajudicialmente (fls. 24), tampouco que nao teve acesso aos respectivos documentos, sendo certo que a praxe revela que estas sao enviadas ao endereco do consumidor, bem como podem ser acessados por canais de atendimento (telefone ou internet). Ha, portanto, duvida sobre a probabilidade do direito da autora nesse ponto, razao pela qual indefiro o pleito pela apresentacao das respectivas faturas do cartao de credito. 3. Intime-se o requerido para que tome ciencia da liminar, bem como se manifeste em 05 (cinco) dias, na forma do art. 308 do NCPC. 4. Apos, intime-se para replica em igual prazo. 5. Por fim, conclusos. Int. -
+ADV: [Informações dos advogados]
+
+Neste exemplo, tudo que vem antes de 'Vistos' pode ser considerado lixo, para efeito de classificação, portanto desconsiderado. A sentença se encontra entre 'Vistos' e 'Int.'. O sufixo pode ser 'Int.', 'Intime-se' ou
+'P.R.I.'. Utilizando a expressão regular '(Vistos)?.+(Int.|P.R.I.|Intime-se)' para extrair somente o corpo da sentença. Utilizando uma ferramenta chamada OpenRefine para facilitar a transformação de todos os dados, porém é opcional. Fazendo a transformação aplicando a expressão regular anterior, a ferramenta retornou aproximadamente 700 entradas. A frequência de cada classe na [[Tabela 1]].
+#+CAPTION: Frequência de cada classe
+#+SOURCE: Criada pelo autor
+#+NAME: Tabela 1
+| Classe | Frequência |
+|--------+------------|
+|      1 |        271 |
+|      5 |        127 |
+|      7 |         79 |
+|      2 |         31 |
+|      3 |         29 |
+|     21 |         18 |
+|     16 |         15 |
+|     24 |         15 |
+|     13 |         14 |
+|     22 |         14 |
+|      9 |         11 |
+|     19 |         10 |
+|      8 |          9 |
+|     23 |          7 |
+|     27 |          5 |
+|      6 |          4 |
+|     10 |          3 |
+|     20 |          2 |
+|     26 |          2 |
+|     17 |          2 |
+|     11 |          1 |
+|--------+------------|
+|  Total |        669 |
+#+TBLFM: $2=vsum(@2..@-1)
+
+* Arquitetura da Rede
+A entrada da rede são os /token/ da rede após passar por um tokenizador /BERT/, os pesos do /BERT/ utilizados foram da biblioteca LegalNLP e o /BertTokenizer/ da biblioteca /Transformers/. A primeira camada da rede é a de Embedding. O tamanho do vocabulário do Embedding escolhido foi de 30000. A escolha do número foi arbitrária, pois deve ser maior que a quantidade de /tokens/ do vocabulário inicial. O /Embedding/ é enviado para a camada /Stacked LSTM/, com várias camadas /LSTM/ em sequência. A técnica de Dropout foi empregada nesta camada para diminuir a chance de que ocorra o overfitting. A última camada é a LogSoftmax, que é um vetor normalizado com a probabilidade da escolha das classes logaritmado.
+
+Por se tratar de um problema de classificação com várias classes, a função custo que será minimizada é a /Negative Log Likelihood Loss/. O otimizador escolhido para este experimento foi o SGD, com uma taxa de aprendizagem de 0.001 e momento 0.9. A taxa de aprendizado tem como objetivo evitar a explosão de gradiente, pois essa é comum acontecer em redes recorrentes. O momento ajuda a convergir pois
+* Resultados
+A métrica utilizada foi /F1 Score/, pois como os dados estão desbalanceados, ver [[Tabela 1]], a métrica fará uma média do acerto por classe. Um score F1 mais próximo de 1, significa que o modelo está mais próximo de ter somente de indentificar corretamente todas as entradas. A sua evolução pode ser observado na [[f1_score][Figura 1]]. A [[conf_mat][Figura 2]] mostra a matriz de confusão, onde os elementos na diagonal principal \( A_ij, i = j \) são as classes identificadas corretamente. Todas as outras entradas foram identificadas incorretamente. A matriz de confusão é uma outra maneira de observar o número de acerto que o modelo possui.
+
+
+#+CAPTION: F1 Score por época de treinamento
+#+SOURCE: Criada pelo autor
+#+NAME: f1_score
+[[file:./f1_score.png]]
+
+#+CAPTION: Matriz de confusão
+#+SOURCE: Criada pelo autor
+#+NAME: conf_mat
+[[file:./confusion_mat.png]]
+

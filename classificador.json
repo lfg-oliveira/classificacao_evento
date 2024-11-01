@@ -1,0 +1,378 @@
+{
+  "saida_csv.predictor": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "movimentacao": "Processo 1014698-47.2024.8.26.0068 - Procedimento do Juizado Especial C\u00edvel - Indeniza\u00e7\u00e3o por Dano Moral - Daniel Haas Bezerra - Vistos. Providencie, a parte autora, emenda \u00e0 inicial, no prazo de 15 dias, sob pena de indeferimento acostando comprovante de efetivo pagamento, pela parte autora, dos valores cuja devolu\u00e7\u00e3o requer. Tratando-se pagamento realizado por meio de cart\u00e3o de cr\u00e9dito, dever\u00e1 a parte interessada proceder \u00e0 juntada da fatura do cart\u00e3o de cr\u00e9dito, onde seja poss\u00edvel visualizar o lan\u00e7amento das despesas e os dados do titular do cart\u00e3o, salientando que o titular do cart\u00e3o dever\u00e1 compor o polo ativo do feito. Dever\u00e1, ainda, acostar procura\u00e7\u00e3o assinada na forma do documento acostado, considerando que o mandato juntado cont\u00eam informa\u00e7\u00f5es de que h\u00e1 assinatura digital, entretanto n\u00e3o \u00e9 poss\u00edvel conferir a autenticidade de tal aceite, pois n\u00e3o foram anexados nem o QRCode nem a URL do documento para confer\u00eancia. Intime-se. - ADV: MARIANA HAAS CARUSO RIBEIRO ALVES (OAB 249705\/RJ)",
+        "resposta": "{\n      \"dano_moral\": \"Sim\",\n      \"valor_dano_moral\": null,\n      \"dano_material\": null,\n      \"valor_dano_material\": null\n   }"
+      },
+      {
+        "augmented": true,
+        "movimentacao": "Processo 1014698-47.2024.8.26.0068 - Procedimento do Juizado Especial C\u00edvel - Indeniza\u00e7\u00e3o por Dano Moral - Daniel Haas Bezerra - Vistos. Providencie, a parte autora, emenda \u00e0 inicial, no prazo de 15 dias, sob pena de indeferimento acostando comprovante de efetivo pagamento, pela parte autora, dos valores cuja devolu\u00e7\u00e3o requer. Tratando-se pagamento realizado por meio de cart\u00e3o de cr\u00e9dito, dever\u00e1 a parte interessada proceder \u00e0 juntada da fatura do cart\u00e3o de cr\u00e9dito, onde seja poss\u00edvel visualizar o lan\u00e7amento das despesas e os dados do titular do cart\u00e3o, salientando que o titular do cart\u00e3o dever\u00e1 compor o polo ativo do feito. Dever\u00e1, ainda, acostar procura\u00e7\u00e3o assinada na forma do documento acostado, considerando que o mandato juntado cont\u00eam informa\u00e7\u00f5es de que h\u00e1 assinatura digital, entretanto n\u00e3o \u00e9 poss\u00edvel conferir a autenticidade de tal aceite, pois n\u00e3o foram anexados nem o QRCode nem a URL do documento para confer\u00eancia. Intime-se. - ADV: MARIANA HAAS CARUSO RIBEIRO ALVES (OAB 249705\/RJ)",
+        "error_resposta_0": "Input should be 'Sim' or 'N\u00e3o': dano_material (error type: enum)",
+        "resposta": "{\n      \"dano_moral\": \"N\u00e3o\",\n      \"valor_dano_moral\": null,\n      \"dano_material\": \"N\u00e3o\",\n      \"valor_dano_material\": null\n   }"
+      },
+      {
+        "augmented": true,
+        "movimentacao": "Processo 1034557-84.2023.8.26.0100 - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Esp\u00e9cies de Contratos - BANCO SAFRA S\/A - Conservo Servi\u00e7os Gerais Ltda - - Guilherme Joao Monken Junior - - Marcio Vilanova Monken - Vistos. Fls. 541\/547: rejeito a exce\u00e7\u00e3o de pr\u00e9-executividade de fls. 525\/530, uma vez que a cita\u00e7\u00e3o do executado j\u00e1 foi reconhecida como v\u00e1lida pelo E.TJSP nos autos do Agravo de Instrumento n\u00ba 2073420-67.2024.8.26.0000. Intimem-se. - ADV: DOUGLAS MARQUES DA SILVA (OAB 465070\/SP), DOUGLAS MARQUES DA SILVA (OAB 465070\/SP), RAMON DE ALMEIDA AMIN JORGE (OAB 87977MG\/), CARLOS AUGUSTO TORTORO JUNIOR (OAB 247319\/SP)",
+        "resposta": "{\n      \"dano_moral\": \"Sim\",\n      \"valor_dano_moral\": null,\n      \"dano_material\": \"N\u00e3o\",\n      \"valor_dano_material\": null\n   }"
+      },
+      {
+        "augmented": true,
+        "movimentacao": "Processo 1033701-19.2023.8.26.0554 - Procedimento Comum C\u00edvel - Pr\u00e1ticas Abusivas - Gollan Corretora de Seguros Ltda Me - RODOBENS ADMINISTRADORA DE CONSORCIOS LTDA e outro - Manifeste-se o(a) autor(a) acerca da contesta\u00e7\u00e3o de fls. retro, no prazo de quinze dias \u00fateis. - ADV: RICARDO GAZZI (OAB 135319\/SP), WALTER RODRIGUES PINHEIRO JUNIOR (OAB 388398\/SP)JU\u00cdZO DE DIREITO DA 8\u00aa VARA C\u00cdVELEDITAL DE INTIMA\u00c7\u00c3O DE PARTES E ADVOGADOSRELA\u00c7\u00c3O N\u00ba 0464\/2024",
+        "resposta": "{\n      \"dano_moral\": \"Sim\",\n      \"valor_dano_moral\": null,\n      \"dano_material\": \"N\u00e3o\",\n      \"valor_dano_material\": null\n   }"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "SIM",
+        "valor_dano_material": "R$ 22.000,00",
+        "movimentacao": "Processo 1041596-83.2020.8.26.0506 - Procedimento Comum C\u00edvel - Rescis\u00e3o do contrato e devolu\u00e7\u00e3o do dinheiro - M.A.C.J. - L.D.V.B.C. - Vistos em fase de saneamento e organiza\u00e7\u00e3o do processo. 1) Cuida-se de a\u00e7\u00e3o rescis\u00e3o contratual a que pretende o autor julgamento de proced\u00eancia para fins de se declarar rescindida a rela\u00e7\u00e3o comercial entre as partes, bem como na condena\u00e7\u00e3o do requerido em proceder ao ressarcimento de valores no importe total de R$ 22.000,00 (vinte e dois mil reais), devidamente corrigidos desde a data do desembolso (14.05.2016), at\u00e9 a data da efetiva devolu\u00e7\u00e3o. 2) Afasta-se a alega\u00e7\u00e3o de prescri\u00e7\u00e3o, uma vez que o prazo prescricional para dirimir quest\u00f5es contratuais \u00e9 de dez anos (prazo decenal), conforme disposi\u00e7\u00e3o do art. 205 do C\u00f3digo Civil, n\u00e3o sendo a pretens\u00e3o fundada em veda\u00e7\u00e3o do enriquecimento il\u00edcito, conforme alegado pela r\u00e9; 3) Partes legitimas e bem representadas; ausentes irregularidades a suprir ou nulidades a reconhecer, declara-se saneado o feito;. 4) A teor do que reza o art. 357, III, e art.373, do NCPC, o \u00f4nus da prova compete ao autor quanto aos fatos constitutivos do direito alegado, visto que a rela\u00e7\u00e3o estabelecida entre as partes n\u00e3o \u00e9 de consumo; 5) A a\u00e7\u00e3o comporta julgamento no estado, posto que os documentos carreados aos autos s\u00e3o suficientes e a prova oral seria in\u00fatil, porque os fatos expostos pelas partes s\u00e3o de natureza t\u00e3o somente jur\u00eddica. 6) Antes, contudo, determina-se manifesta\u00e7\u00e3o das partes, em dez dias, acerca do interesse do autor na m\u00e1quina ou eventual destina\u00e7\u00e3o que j\u00e1 lhe tenha sido conferida pela r\u00e9; 7) Ap\u00f3s, tornem os autos conclusos para senten\u00e7a. Intimem-se. - ADV: THIAGO ALVES (OAB 325949\/SP), ADRIANO GREVE (OAB 211900\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1041596-83.2020.8.26.0506"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0002862-85.2024.8.26.0362 (processo principal 1008774-22.2019.8.26.0362) - Cumprimento de Senten\u00e7a contra a Fazenda P\u00fablica - Aux\u00edlio-Doen\u00e7a Previdenci\u00e1rio - Carolina da Silva Vicente - Vistos. 1 - Diante da concord\u00e2ncia do exequente, homologo o c\u00e1lculo apresentado pelo executado a fls. 2\/4 desta A\u00e7\u00e3o Declarat\u00f3ria de Benef\u00edcio Previdenci\u00e1rio, ora em fase de Execu\u00e7\u00e3o. 2 Forne\u00e7am as partes os dados necess\u00e1rios nos termos da Resolu\u00e7\u00e3o n\u00ba 168\/2011 de 05\/12\/2011, Cap\u00edtulo I, artigo 8\u00ba, incisos XVII e XVIII se o caso. 3 - Deixo de determinar a intima\u00e7\u00e3o do INSS para manifesta\u00e7\u00e3o sobre eventual exist\u00eancia de d\u00e9bito em nome dos credores (artigo 30 da Lei 12.431\/2011, que regulamentou os par\u00e1grafos \u00a7\u00a7 9\u00ba e 10\u00ba do artigo 100 da Constitui\u00e7\u00e3o Federal -introduzidos pela Emenda Constitucional n\u00ba 62\/2009), visto que, no julgamento da ADI 4357 pelo plen\u00e1rio do C. STF foram declarados inconstitucionais os \u00a7\u00a7 9\u00ba e 10\u00ba do artigo 100 da CF. 4 - Certificado o decurso do prazo para recurso, requisite-se o pagamento e aguarde-se not\u00edcia sobre a disponibiliza\u00e7\u00e3o dos valores. 5 Intime-se - ADV: RICARDO ALEXANDRE DA SILVA (OAB 212822\/SP), JOS\u00c9 EDJACKSON SILVA DOS SANTOS (OAB 436316\/SP), GELSON LUIS GON\u00c7ALVES QUIRINO (OAB 214319\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0002862-85.2024.8.26.0362"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0004691-08.2024.8.26.0005 (apensado ao processo 1015677-38.2023.8.26.0005) (processo principal 1015677-38.2023.8.26.0005) - Cumprimento de senten\u00e7a - Pr\u00e1ticas Abusivas - Negr\u00e3o, Ferrari Advogados Associados - Thiago Possato Medeiros - Atento a fls. 64\/66, determino \u00e0 Serventia que expe\u00e7a, em favor da parte exequente, o mandado de levantamento eletr\u00f4nico, referente ao dep\u00f3sito de fls. 59, nos termos do Comunicado Conjunto da Presid\u00eancia do Tribunal de Justi\u00e7a do Estado de S\u00e3o Paulo e Corregedoria Geral da Justi\u00e7a n\u00ba 2059\/2018, publicado no Di\u00e1rio de Justi\u00e7a Eletr\u00f4nico de 24 de outubro de 2018, p\u00e1gina 02, observando os dados do formul\u00e1rio apresentado. No mais, intime-se a parte executada, na pessoa de seu advogado, para pagar em 15(quinze) dias a diferen\u00e7a apontada a fls. 65. Int. - ADV: TASSIA DE TARSO DA SILVA FRANCO (OAB 434831\/SP), RICARDO NEGRAO (OAB 138723\/SP), JEAN CARLOS ROCHA (OAB 434164\/SP)",
+        "local": "Cumprimento",
+        "numero_processo": "0004691-08.2024.8.26.0005"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1002292-04.2024.8.26.0291 - Procedimento Comum C\u00edvel - Dissolu\u00e7\u00e3o - R.B. - Vistos. Promova a serventia a pesquisa de CPF das pessoas indicadas a fls.45 pelo sistema INFOJUD. Intimem-se. - ADV: RUI CESAR LENHARI (OAB 265046\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1002292-04.2024.8.26.0291"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0148281-40.2010.8.26.0100 (583.00.2010.148281) - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Banco Bradesco S.a - Modom Motores Domingues Servi\u00e7os e Pe\u00e7as Ltda - Me e outros - Vistos. Defiro a expedi\u00e7\u00e3o dos of\u00edcios nos termos requeridos na peti\u00e7\u00e3o anterior. Em observ\u00e2ncia aos princ\u00edpios processuais constitucionais da celeridade processual e da efetividade na presta\u00e7\u00e3o da tutela jurisdicional, servir\u00e1 o presente despacho, por c\u00f3pia digitada, instru\u00edda com c\u00f3pia da peti\u00e7\u00e3o referida acima, como of\u00edcio a ser entregue pelo patrono do interessado no local adequado, mediante protocolo, comprovando-se nos autos no prazo de 5 dias. Observe o destinat\u00e1rio que a resposta dever\u00e1 ser encaminhada diretamente \u00e0 Unidade de Processamento Judicial (UPJ) das 41\u00ba a 45\u00ba Varas C\u00edveis Centrais, F\u00f3rum Jo\u00e3o Mendes J\u00fanior, P\u00e7a. Jo\u00e3o Mendes, s\/n, CEP 01501-900, sala 1425, 14\u00ba andar, e-mail: upj41a45@tjsp.jus.br, no prazo de 15 dias. Int. - ADV: ROBERTA SEVO VILCHE (OAB 235172\/SP), VERA LUCIA DE CARVALHO RODRIGUES (OAB 70001\/SP), ROBERTA SEVO VILCHE (OAB 235172\/SP), ROBERTA SEVO VILCHE (OAB 235172\/SP), SELMA BRILHANTE TALLARICO DA SILVA (OAB 144668\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0148281-40.2010.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0000830-39.2021.8.26.0451 (processo principal 1003067-68.2017.8.26.0451) - Cumprimento de senten\u00e7a - Esp\u00e9cies de Contratos - Rubens Antonio Pinto Dalera - Aeroclube de Piracicaba - Ci\u00eancia do resultado da pesquisa de endere\u00e7os, devendo a parte solicitante da mesma manifestar-se em termos de prosseguimento. - ADV: WAGNER AURELIO DA ROCHA (OAB 389392\/SP), DIEGO ALVARADO DE SA (OAB 326174\/SP), SANY ISABEL RODRIGUES (OAB 339782\/SP), LIVAN PEREIRA DA SILVA (OAB 309479\/SP)",
+        "local": "Cumprimento",
+        "numero_processo": "0000830-39.2021.8.26.0451"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1151608-19.2023.8.26.0100 - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Obriga\u00e7\u00f5es - Anhanguera Educacional Participa\u00e7\u00f5es S\/A - Uni\u00e3o Educacional e Tecnol\u00f3gica Impacta Uni-impacta Ltda. - - Celio Antunes de Souza - - Ana Cl\u00e1udia Colacioppo Antunes - Vistos. Ante a not\u00edcia de que as partes est\u00e3o em tratativas de acordo extrajudicial, sobresto o andamento do feito pelo prazo de 30 dias, conforme requisitado. Vencido o prazo sem provoca\u00e7\u00e3o \u00fatil, aguarde-se no arquivo. Intime-se. - ADV: ALFREDO DOMINGUES BARBOSA MIGLIORE (OAB 182107\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), KEDMA FERNANDA DE MORAES WATANABE (OAB 256534\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1151608-19.2023.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1104521-33.2024.8.26.0100 - Consigna\u00e7\u00e3o em Pagamento - Pagamento em Consigna\u00e7\u00e3o - Aparecido Cezar de Souza - Vistos. Defiro a justi\u00e7a gratuita. Anote-se. Defiro a tutela de urg\u00eancia para que o autor deposite nos autos os alugu\u00e9is das parcelas vencidas a fim de evitar mora e rescis\u00e3o contratual. H\u00e1 realmente d\u00favida em rela\u00e7\u00e3o \u00e0 pessoa do credor, o que justifica a concess\u00e3o da medida. Quanto ao endere\u00e7o da primeira r\u00e9, defiro pesquisa a fim de possibilitar a cita\u00e7\u00e3o. Cite-se o(a) requerido(a) para os termos da a\u00e7\u00e3o em ep\u00edgrafe, advertindo-se do prazo de 15 (quinze) dias para apresentar a resposta. Intime-se. - ADV: ANDERSON VIEIRA COUTO (OAB 346618\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1104521-33.2024.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "N\u00ba 1012401-63.2022.8.26.0286 - Processo Digital. Peti\u00e7\u00f5es para juntada devem ser apresentadas exclusivamente por meio eletr\u00f4nico, nos termos do artigo 7\u00ba da Res. 551\/2011 - Apela\u00e7\u00e3o C\u00edvel - Itu - Apelante: Jardim Alvorada Empreendimento Imobili\u00e1rio Spe Ltda - Apelada: Luzia Aparecida dos Santos (Justi\u00e7a Gratuita) - Apelado: Jose Raimundo dos Santos (Justi\u00e7a Gratuita) - III. Pelo exposto, considerando a exist\u00eancia de ac\u00f3rd\u00e3o divergente, ADMITO o recurso especial pelo art. 105, III, da Constitui\u00e7\u00e3o Federal, combinado com o art. 1.030, V, \u201cc\u201d, do C\u00f3digo de Processo Civil. Subam os autos, oportunamente, ao E. Superior Tribunal de Justi\u00e7a, observando a Secretaria as formalidades legais. - Magistrado(a) Heraldo de Oliveira (Pres. Se\u00e7\u00e3o de Direito Privado) - Advs: Elisangela Flor\u00eancio de Farias (OAB: 252086\/SP) - Gustavo Musqueira de Camargo (OAB: 440390\/SP) - Jo\u00e3o Guilherme Mercante de Campos (OAB: 447496\/SP) - P\u00e1tio do Col\u00e9gio - 7\u00ba andar - Sala 705",
+        "local": "JC - 2\u00ba GRAU",
+        "numero_processo": "1012401-63.2022.8.26.0286"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1020414-38.2021.8.26.0625 - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Contratos Banc\u00e1rios - Banco do Brasil S\/A - Rog\u00e9rio Tadeu da Costa - Manifestar o autor ante certid\u00e3o de fls. 280. - ADV: FABIO ADRIANO GOMES (OAB 205443\/SP), NELSON WILIANS FRATONI RODRIGUES (OAB 128341\/SP), EDUARDO JANZON AVALLONE NOGUEIRA (OAB 123199\/SP)JU\u00cdZO DE DIREITO DA 5\u00aa VARA C\u00cdVELEDITAL DE INTIMA\u00c7\u00c3O DE PARTES E ADVOGADOSRELA\u00c7\u00c3O N\u00ba 0502\/2024",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1020414-38.2021.8.26.0625"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1042210-79.2019.8.26.0100 - Procedimento Comum C\u00edvel - Indeniza\u00e7\u00e3o por Dano Moral - Edite Batroff - Vistos. Homologo o acordo celebrado entre as partes e JULGO EXTINTA A EXECU\u00c7\u00c3O, com fulcro no art. 924, III, do CPC. Determino o levantamento da penhora realizada sobre o veiculo, atrav\u00e9s do sistema RENAJUD. Determino que a parte executada deposite ou comprove o recolhimento das custas finais - 1% sobre o valor da execu\u00e7\u00e3o (valor considerado correto para quita\u00e7\u00e3o), com a ressalva no valor m\u00ednimo de 5 UFESPS e m\u00e1ximo de 3.000 UFESPS, no prazo de 15 dias. P.R.I.C. Arquivem-se os autos. - ADV: ANTONIO CLOVIS DIAS DE MELO (OAB 126200\/SP), SANDRO RENATO MENDES (OAB 166618\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1042210-79.2019.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0005493-03.2023.8.26.0664 (processo principal 1006860-84.2019.8.26.0664) - Cumprimento de Senten\u00e7a contra a Fazenda P\u00fablica Mediante Execu\u00e7\u00e3o Invertida - Aposentadoria por Tempo de Servi\u00e7o (Art. 52\/4) - Luiz Carlos Caneli de Freitas - Vistos. Observada a certid\u00e3o da z. Serventia de fls. 218, e em reavalia\u00e7\u00e3o dos autos, tem-se que os valores aqui discutidos n\u00e3o ser\u00e3o requisitados pelo Portal Eletr\u00f4nico do Devedor (que possui procedimento diverso), mas sim pelo sistema Precweb, uma vez que o processo prov\u00e9m de compet\u00eancia delegada. Neste caso, o tr\u00e2nsito em julgado do processo de conhecimento \u00e9 exig\u00eancia do pr\u00f3prio sistema Precweb e, sem a data, n\u00e3o \u00e9 poss\u00edvel o cadastro do RPV\/Precat\u00f3rio. Assim, aguarde-se o Publica\u00e7\u00e3o Oficial do Tribunal de Justi\u00e7a do Estado de S\u00e3o Paulo - Lei Federal n\u00ba 11.419\/06, art. 4\u00baDisponibiliza\u00e7\u00e3o: segunda-feira, 22 de julho de 2024Di\u00e1rio da Justi\u00e7a Eletr\u00f4nico - Caderno Judicial - 1\u00aa Inst\u00e2ncia - Interior - Parte IIIS\u00e3o Paulo, Ano XVII - Edi\u00e7\u00e3o 4011 4739julgamento da apela\u00e7\u00e3o, no processo principal e seu tr\u00e2nsito em julgado. Int. - ADV: RODRIGO DE OLIVEIRA CEVALLOS (OAB 265041\/SP), ROG\u00c9RIO ADRIANO ALVES NARVAES (OAB 258293\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0005493-03.2023.8.26.0664"
+      }
+    ],
+    "signature_instructions": "Sua tarefa \u00e9 extrair os dados da movimenta\u00e7\u00e3o em formato CSV.",
+    "signature_prefix": "Resposta:"
+  },
+  "checar_saida": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "N\u00ba 1012401-63.2022.8.26.0286 - Processo Digital. Peti\u00e7\u00f5es para juntada devem ser apresentadas exclusivamente por meio eletr\u00f4nico, nos termos do artigo 7\u00ba da Res. 551\/2011 - Apela\u00e7\u00e3o C\u00edvel - Itu - Apelante: Jardim Alvorada Empreendimento Imobili\u00e1rio Spe Ltda - Apelada: Luzia Aparecida dos Santos (Justi\u00e7a Gratuita) - Apelado: Jose Raimundo dos Santos (Justi\u00e7a Gratuita) - III. Pelo exposto, considerando a exist\u00eancia de ac\u00f3rd\u00e3o divergente, ADMITO o recurso especial pelo art. 105, III, da Constitui\u00e7\u00e3o Federal, combinado com o art. 1.030, V, \u201cc\u201d, do C\u00f3digo de Processo Civil. Subam os autos, oportunamente, ao E. Superior Tribunal de Justi\u00e7a, observando a Secretaria as formalidades legais. - Magistrado(a) Heraldo de Oliveira (Pres. Se\u00e7\u00e3o de Direito Privado) - Advs: Elisangela Flor\u00eancio de Farias (OAB: 252086\/SP) - Gustavo Musqueira de Camargo (OAB: 440390\/SP) - Jo\u00e3o Guilherme Mercante de Campos (OAB: 447496\/SP) - P\u00e1tio do Col\u00e9gio - 7\u00ba andar - Sala 705",
+        "local": "JC - 2\u00ba GRAU",
+        "numero_processo": "1012401-63.2022.8.26.0286"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0004691-08.2024.8.26.0005 (apensado ao processo 1015677-38.2023.8.26.0005) (processo principal 1015677-38.2023.8.26.0005) - Cumprimento de senten\u00e7a - Pr\u00e1ticas Abusivas - Negr\u00e3o, Ferrari Advogados Associados - Thiago Possato Medeiros - Atento a fls. 64\/66, determino \u00e0 Serventia que expe\u00e7a, em favor da parte exequente, o mandado de levantamento eletr\u00f4nico, referente ao dep\u00f3sito de fls. 59, nos termos do Comunicado Conjunto da Presid\u00eancia do Tribunal de Justi\u00e7a do Estado de S\u00e3o Paulo e Corregedoria Geral da Justi\u00e7a n\u00ba 2059\/2018, publicado no Di\u00e1rio de Justi\u00e7a Eletr\u00f4nico de 24 de outubro de 2018, p\u00e1gina 02, observando os dados do formul\u00e1rio apresentado. No mais, intime-se a parte executada, na pessoa de seu advogado, para pagar em 15(quinze) dias a diferen\u00e7a apontada a fls. 65. Int. - ADV: TASSIA DE TARSO DA SILVA FRANCO (OAB 434831\/SP), RICARDO NEGRAO (OAB 138723\/SP), JEAN CARLOS ROCHA (OAB 434164\/SP)",
+        "local": "Cumprimento",
+        "numero_processo": "0004691-08.2024.8.26.0005"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0148281-40.2010.8.26.0100 (583.00.2010.148281) - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Banco Bradesco S.a - Modom Motores Domingues Servi\u00e7os e Pe\u00e7as Ltda - Me e outros - Vistos. Defiro a expedi\u00e7\u00e3o dos of\u00edcios nos termos requeridos na peti\u00e7\u00e3o anterior. Em observ\u00e2ncia aos princ\u00edpios processuais constitucionais da celeridade processual e da efetividade na presta\u00e7\u00e3o da tutela jurisdicional, servir\u00e1 o presente despacho, por c\u00f3pia digitada, instru\u00edda com c\u00f3pia da peti\u00e7\u00e3o referida acima, como of\u00edcio a ser entregue pelo patrono do interessado no local adequado, mediante protocolo, comprovando-se nos autos no prazo de 5 dias. Observe o destinat\u00e1rio que a resposta dever\u00e1 ser encaminhada diretamente \u00e0 Unidade de Processamento Judicial (UPJ) das 41\u00ba a 45\u00ba Varas C\u00edveis Centrais, F\u00f3rum Jo\u00e3o Mendes J\u00fanior, P\u00e7a. Jo\u00e3o Mendes, s\/n, CEP 01501-900, sala 1425, 14\u00ba andar, e-mail: upj41a45@tjsp.jus.br, no prazo de 15 dias. Int. - ADV: ROBERTA SEVO VILCHE (OAB 235172\/SP), VERA LUCIA DE CARVALHO RODRIGUES (OAB 70001\/SP), ROBERTA SEVO VILCHE (OAB 235172\/SP), ROBERTA SEVO VILCHE (OAB 235172\/SP), SELMA BRILHANTE TALLARICO DA SILVA (OAB 144668\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0148281-40.2010.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1042210-79.2019.8.26.0100 - Procedimento Comum C\u00edvel - Indeniza\u00e7\u00e3o por Dano Moral - Edite Batroff - Vistos. Homologo o acordo celebrado entre as partes e JULGO EXTINTA A EXECU\u00c7\u00c3O, com fulcro no art. 924, III, do CPC. Determino o levantamento da penhora realizada sobre o veiculo, atrav\u00e9s do sistema RENAJUD. Determino que a parte executada deposite ou comprove o recolhimento das custas finais - 1% sobre o valor da execu\u00e7\u00e3o (valor considerado correto para quita\u00e7\u00e3o), com a ressalva no valor m\u00ednimo de 5 UFESPS e m\u00e1ximo de 3.000 UFESPS, no prazo de 15 dias. P.R.I.C. Arquivem-se os autos. - ADV: ANTONIO CLOVIS DIAS DE MELO (OAB 126200\/SP), SANDRO RENATO MENDES (OAB 166618\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1042210-79.2019.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0002862-85.2024.8.26.0362 (processo principal 1008774-22.2019.8.26.0362) - Cumprimento de Senten\u00e7a contra a Fazenda P\u00fablica - Aux\u00edlio-Doen\u00e7a Previdenci\u00e1rio - Carolina da Silva Vicente - Vistos. 1 - Diante da concord\u00e2ncia do exequente, homologo o c\u00e1lculo apresentado pelo executado a fls. 2\/4 desta A\u00e7\u00e3o Declarat\u00f3ria de Benef\u00edcio Previdenci\u00e1rio, ora em fase de Execu\u00e7\u00e3o. 2 Forne\u00e7am as partes os dados necess\u00e1rios nos termos da Resolu\u00e7\u00e3o n\u00ba 168\/2011 de 05\/12\/2011, Cap\u00edtulo I, artigo 8\u00ba, incisos XVII e XVIII se o caso. 3 - Deixo de determinar a intima\u00e7\u00e3o do INSS para manifesta\u00e7\u00e3o sobre eventual exist\u00eancia de d\u00e9bito em nome dos credores (artigo 30 da Lei 12.431\/2011, que regulamentou os par\u00e1grafos \u00a7\u00a7 9\u00ba e 10\u00ba do artigo 100 da Constitui\u00e7\u00e3o Federal -introduzidos pela Emenda Constitucional n\u00ba 62\/2009), visto que, no julgamento da ADI 4357 pelo plen\u00e1rio do C. STF foram declarados inconstitucionais os \u00a7\u00a7 9\u00ba e 10\u00ba do artigo 100 da CF. 4 - Certificado o decurso do prazo para recurso, requisite-se o pagamento e aguarde-se not\u00edcia sobre a disponibiliza\u00e7\u00e3o dos valores. 5 Intime-se - ADV: RICARDO ALEXANDRE DA SILVA (OAB 212822\/SP), JOS\u00c9 EDJACKSON SILVA DOS SANTOS (OAB 436316\/SP), GELSON LUIS GON\u00c7ALVES QUIRINO (OAB 214319\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0002862-85.2024.8.26.0362"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1020414-38.2021.8.26.0625 - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Contratos Banc\u00e1rios - Banco do Brasil S\/A - Rog\u00e9rio Tadeu da Costa - Manifestar o autor ante certid\u00e3o de fls. 280. - ADV: FABIO ADRIANO GOMES (OAB 205443\/SP), NELSON WILIANS FRATONI RODRIGUES (OAB 128341\/SP), EDUARDO JANZON AVALLONE NOGUEIRA (OAB 123199\/SP)JU\u00cdZO DE DIREITO DA 5\u00aa VARA C\u00cdVELEDITAL DE INTIMA\u00c7\u00c3O DE PARTES E ADVOGADOSRELA\u00c7\u00c3O N\u00ba 0502\/2024",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1020414-38.2021.8.26.0625"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0005493-03.2023.8.26.0664 (processo principal 1006860-84.2019.8.26.0664) - Cumprimento de Senten\u00e7a contra a Fazenda P\u00fablica Mediante Execu\u00e7\u00e3o Invertida - Aposentadoria por Tempo de Servi\u00e7o (Art. 52\/4) - Luiz Carlos Caneli de Freitas - Vistos. Observada a certid\u00e3o da z. Serventia de fls. 218, e em reavalia\u00e7\u00e3o dos autos, tem-se que os valores aqui discutidos n\u00e3o ser\u00e3o requisitados pelo Portal Eletr\u00f4nico do Devedor (que possui procedimento diverso), mas sim pelo sistema Precweb, uma vez que o processo prov\u00e9m de compet\u00eancia delegada. Neste caso, o tr\u00e2nsito em julgado do processo de conhecimento \u00e9 exig\u00eancia do pr\u00f3prio sistema Precweb e, sem a data, n\u00e3o \u00e9 poss\u00edvel o cadastro do RPV\/Precat\u00f3rio. Assim, aguarde-se o Publica\u00e7\u00e3o Oficial do Tribunal de Justi\u00e7a do Estado de S\u00e3o Paulo - Lei Federal n\u00ba 11.419\/06, art. 4\u00baDisponibiliza\u00e7\u00e3o: segunda-feira, 22 de julho de 2024Di\u00e1rio da Justi\u00e7a Eletr\u00f4nico - Caderno Judicial - 1\u00aa Inst\u00e2ncia - Interior - Parte IIIS\u00e3o Paulo, Ano XVII - Edi\u00e7\u00e3o 4011 4739julgamento da apela\u00e7\u00e3o, no processo principal e seu tr\u00e2nsito em julgado. Int. - ADV: RODRIGO DE OLIVEIRA CEVALLOS (OAB 265041\/SP), ROG\u00c9RIO ADRIANO ALVES NARVAES (OAB 258293\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0005493-03.2023.8.26.0664"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1151608-19.2023.8.26.0100 - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Obriga\u00e7\u00f5es - Anhanguera Educacional Participa\u00e7\u00f5es S\/A - Uni\u00e3o Educacional e Tecnol\u00f3gica Impacta Uni-impacta Ltda. - - Celio Antunes de Souza - - Ana Cl\u00e1udia Colacioppo Antunes - Vistos. Ante a not\u00edcia de que as partes est\u00e3o em tratativas de acordo extrajudicial, sobresto o andamento do feito pelo prazo de 30 dias, conforme requisitado. Vencido o prazo sem provoca\u00e7\u00e3o \u00fatil, aguarde-se no arquivo. Intime-se. - ADV: ALFREDO DOMINGUES BARBOSA MIGLIORE (OAB 182107\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), KEDMA FERNANDA DE MORAES WATANABE (OAB 256534\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1151608-19.2023.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1104521-33.2024.8.26.0100 - Consigna\u00e7\u00e3o em Pagamento - Pagamento em Consigna\u00e7\u00e3o - Aparecido Cezar de Souza - Vistos. Defiro a justi\u00e7a gratuita. Anote-se. Defiro a tutela de urg\u00eancia para que o autor deposite nos autos os alugu\u00e9is das parcelas vencidas a fim de evitar mora e rescis\u00e3o contratual. H\u00e1 realmente d\u00favida em rela\u00e7\u00e3o \u00e0 pessoa do credor, o que justifica a concess\u00e3o da medida. Quanto ao endere\u00e7o da primeira r\u00e9, defiro pesquisa a fim de possibilitar a cita\u00e7\u00e3o. Cite-se o(a) requerido(a) para os termos da a\u00e7\u00e3o em ep\u00edgrafe, advertindo-se do prazo de 15 (quinze) dias para apresentar a resposta. Intime-se. - ADV: ANDERSON VIEIRA COUTO (OAB 346618\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1104521-33.2024.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1002292-04.2024.8.26.0291 - Procedimento Comum C\u00edvel - Dissolu\u00e7\u00e3o - R.B. - Vistos. Promova a serventia a pesquisa de CPF das pessoas indicadas a fls.45 pelo sistema INFOJUD. Intimem-se. - ADV: RUI CESAR LENHARI (OAB 265046\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1002292-04.2024.8.26.0291"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "SIM",
+        "valor_dano_material": "R$ 22.000,00",
+        "movimentacao": "Processo 1041596-83.2020.8.26.0506 - Procedimento Comum C\u00edvel - Rescis\u00e3o do contrato e devolu\u00e7\u00e3o do dinheiro - M.A.C.J. - L.D.V.B.C. - Vistos em fase de saneamento e organiza\u00e7\u00e3o do processo. 1) Cuida-se de a\u00e7\u00e3o rescis\u00e3o contratual a que pretende o autor julgamento de proced\u00eancia para fins de se declarar rescindida a rela\u00e7\u00e3o comercial entre as partes, bem como na condena\u00e7\u00e3o do requerido em proceder ao ressarcimento de valores no importe total de R$ 22.000,00 (vinte e dois mil reais), devidamente corrigidos desde a data do desembolso (14.05.2016), at\u00e9 a data da efetiva devolu\u00e7\u00e3o. 2) Afasta-se a alega\u00e7\u00e3o de prescri\u00e7\u00e3o, uma vez que o prazo prescricional para dirimir quest\u00f5es contratuais \u00e9 de dez anos (prazo decenal), conforme disposi\u00e7\u00e3o do art. 205 do C\u00f3digo Civil, n\u00e3o sendo a pretens\u00e3o fundada em veda\u00e7\u00e3o do enriquecimento il\u00edcito, conforme alegado pela r\u00e9; 3) Partes legitimas e bem representadas; ausentes irregularidades a suprir ou nulidades a reconhecer, declara-se saneado o feito;. 4) A teor do que reza o art. 357, III, e art.373, do NCPC, o \u00f4nus da prova compete ao autor quanto aos fatos constitutivos do direito alegado, visto que a rela\u00e7\u00e3o estabelecida entre as partes n\u00e3o \u00e9 de consumo; 5) A a\u00e7\u00e3o comporta julgamento no estado, posto que os documentos carreados aos autos s\u00e3o suficientes e a prova oral seria in\u00fatil, porque os fatos expostos pelas partes s\u00e3o de natureza t\u00e3o somente jur\u00eddica. 6) Antes, contudo, determina-se manifesta\u00e7\u00e3o das partes, em dez dias, acerca do interesse do autor na m\u00e1quina ou eventual destina\u00e7\u00e3o que j\u00e1 lhe tenha sido conferida pela r\u00e9; 7) Ap\u00f3s, tornem os autos conclusos para senten\u00e7a. Intimem-se. - ADV: THIAGO ALVES (OAB 325949\/SP), ADRIANO GREVE (OAB 211900\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1041596-83.2020.8.26.0506"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0000830-39.2021.8.26.0451 (processo principal 1003067-68.2017.8.26.0451) - Cumprimento de senten\u00e7a - Esp\u00e9cies de Contratos - Rubens Antonio Pinto Dalera - Aeroclube de Piracicaba - Ci\u00eancia do resultado da pesquisa de endere\u00e7os, devendo a parte solicitante da mesma manifestar-se em termos de prosseguimento. - ADV: WAGNER AURELIO DA ROCHA (OAB 389392\/SP), DIEGO ALVARADO DE SA (OAB 326174\/SP), SANY ISABEL RODRIGUES (OAB 339782\/SP), LIVAN PEREIRA DA SILVA (OAB 309479\/SP)",
+        "local": "Cumprimento",
+        "numero_processo": "0000830-39.2021.8.26.0451"
+      }
+    ],
+    "signature_instructions": "Por favor, verfique se a entrada segue o padr\u00e3o de valores separados por v\u00edrgula (CSV).",
+    "signature_prefix": "Motivo Decisao Formatado Corretamente:",
+    "extended_signature_instructions": "Por favor, verfique se a entrada segue o padr\u00e3o de valores separados por v\u00edrgula (CSV).",
+    "extended_signature_prefix": "Motivo Decisao Formatado Corretamente:"
+  },
+  "retry": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "SIM",
+        "valor_dano_material": "R$ 22.000,00",
+        "movimentacao": "Processo 1041596-83.2020.8.26.0506 - Procedimento Comum C\u00edvel - Rescis\u00e3o do contrato e devolu\u00e7\u00e3o do dinheiro - M.A.C.J. - L.D.V.B.C. - Vistos em fase de saneamento e organiza\u00e7\u00e3o do processo. 1) Cuida-se de a\u00e7\u00e3o rescis\u00e3o contratual a que pretende o autor julgamento de proced\u00eancia para fins de se declarar rescindida a rela\u00e7\u00e3o comercial entre as partes, bem como na condena\u00e7\u00e3o do requerido em proceder ao ressarcimento de valores no importe total de R$ 22.000,00 (vinte e dois mil reais), devidamente corrigidos desde a data do desembolso (14.05.2016), at\u00e9 a data da efetiva devolu\u00e7\u00e3o. 2) Afasta-se a alega\u00e7\u00e3o de prescri\u00e7\u00e3o, uma vez que o prazo prescricional para dirimir quest\u00f5es contratuais \u00e9 de dez anos (prazo decenal), conforme disposi\u00e7\u00e3o do art. 205 do C\u00f3digo Civil, n\u00e3o sendo a pretens\u00e3o fundada em veda\u00e7\u00e3o do enriquecimento il\u00edcito, conforme alegado pela r\u00e9; 3) Partes legitimas e bem representadas; ausentes irregularidades a suprir ou nulidades a reconhecer, declara-se saneado o feito;. 4) A teor do que reza o art. 357, III, e art.373, do NCPC, o \u00f4nus da prova compete ao autor quanto aos fatos constitutivos do direito alegado, visto que a rela\u00e7\u00e3o estabelecida entre as partes n\u00e3o \u00e9 de consumo; 5) A a\u00e7\u00e3o comporta julgamento no estado, posto que os documentos carreados aos autos s\u00e3o suficientes e a prova oral seria in\u00fatil, porque os fatos expostos pelas partes s\u00e3o de natureza t\u00e3o somente jur\u00eddica. 6) Antes, contudo, determina-se manifesta\u00e7\u00e3o das partes, em dez dias, acerca do interesse do autor na m\u00e1quina ou eventual destina\u00e7\u00e3o que j\u00e1 lhe tenha sido conferida pela r\u00e9; 7) Ap\u00f3s, tornem os autos conclusos para senten\u00e7a. Intimem-se. - ADV: THIAGO ALVES (OAB 325949\/SP), ADRIANO GREVE (OAB 211900\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1041596-83.2020.8.26.0506"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1020414-38.2021.8.26.0625 - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Contratos Banc\u00e1rios - Banco do Brasil S\/A - Rog\u00e9rio Tadeu da Costa - Manifestar o autor ante certid\u00e3o de fls. 280. - ADV: FABIO ADRIANO GOMES (OAB 205443\/SP), NELSON WILIANS FRATONI RODRIGUES (OAB 128341\/SP), EDUARDO JANZON AVALLONE NOGUEIRA (OAB 123199\/SP)JU\u00cdZO DE DIREITO DA 5\u00aa VARA C\u00cdVELEDITAL DE INTIMA\u00c7\u00c3O DE PARTES E ADVOGADOSRELA\u00c7\u00c3O N\u00ba 0502\/2024",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1020414-38.2021.8.26.0625"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1151608-19.2023.8.26.0100 - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Obriga\u00e7\u00f5es - Anhanguera Educacional Participa\u00e7\u00f5es S\/A - Uni\u00e3o Educacional e Tecnol\u00f3gica Impacta Uni-impacta Ltda. - - Celio Antunes de Souza - - Ana Cl\u00e1udia Colacioppo Antunes - Vistos. Ante a not\u00edcia de que as partes est\u00e3o em tratativas de acordo extrajudicial, sobresto o andamento do feito pelo prazo de 30 dias, conforme requisitado. Vencido o prazo sem provoca\u00e7\u00e3o \u00fatil, aguarde-se no arquivo. Intime-se. - ADV: ALFREDO DOMINGUES BARBOSA MIGLIORE (OAB 182107\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), RICARDO DIAS TROTTA (OAB 144402\/SP), KEDMA FERNANDA DE MORAES WATANABE (OAB 256534\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1151608-19.2023.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1104521-33.2024.8.26.0100 - Consigna\u00e7\u00e3o em Pagamento - Pagamento em Consigna\u00e7\u00e3o - Aparecido Cezar de Souza - Vistos. Defiro a justi\u00e7a gratuita. Anote-se. Defiro a tutela de urg\u00eancia para que o autor deposite nos autos os alugu\u00e9is das parcelas vencidas a fim de evitar mora e rescis\u00e3o contratual. H\u00e1 realmente d\u00favida em rela\u00e7\u00e3o \u00e0 pessoa do credor, o que justifica a concess\u00e3o da medida. Quanto ao endere\u00e7o da primeira r\u00e9, defiro pesquisa a fim de possibilitar a cita\u00e7\u00e3o. Cite-se o(a) requerido(a) para os termos da a\u00e7\u00e3o em ep\u00edgrafe, advertindo-se do prazo de 15 (quinze) dias para apresentar a resposta. Intime-se. - ADV: ANDERSON VIEIRA COUTO (OAB 346618\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1104521-33.2024.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0004691-08.2024.8.26.0005 (apensado ao processo 1015677-38.2023.8.26.0005) (processo principal 1015677-38.2023.8.26.0005) - Cumprimento de senten\u00e7a - Pr\u00e1ticas Abusivas - Negr\u00e3o, Ferrari Advogados Associados - Thiago Possato Medeiros - Atento a fls. 64\/66, determino \u00e0 Serventia que expe\u00e7a, em favor da parte exequente, o mandado de levantamento eletr\u00f4nico, referente ao dep\u00f3sito de fls. 59, nos termos do Comunicado Conjunto da Presid\u00eancia do Tribunal de Justi\u00e7a do Estado de S\u00e3o Paulo e Corregedoria Geral da Justi\u00e7a n\u00ba 2059\/2018, publicado no Di\u00e1rio de Justi\u00e7a Eletr\u00f4nico de 24 de outubro de 2018, p\u00e1gina 02, observando os dados do formul\u00e1rio apresentado. No mais, intime-se a parte executada, na pessoa de seu advogado, para pagar em 15(quinze) dias a diferen\u00e7a apontada a fls. 65. Int. - ADV: TASSIA DE TARSO DA SILVA FRANCO (OAB 434831\/SP), RICARDO NEGRAO (OAB 138723\/SP), JEAN CARLOS ROCHA (OAB 434164\/SP)",
+        "local": "Cumprimento",
+        "numero_processo": "0004691-08.2024.8.26.0005"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0148281-40.2010.8.26.0100 (583.00.2010.148281) - Execu\u00e7\u00e3o de T\u00edtulo Extrajudicial - Banco Bradesco S.a - Modom Motores Domingues Servi\u00e7os e Pe\u00e7as Ltda - Me e outros - Vistos. Defiro a expedi\u00e7\u00e3o dos of\u00edcios nos termos requeridos na peti\u00e7\u00e3o anterior. Em observ\u00e2ncia aos princ\u00edpios processuais constitucionais da celeridade processual e da efetividade na presta\u00e7\u00e3o da tutela jurisdicional, servir\u00e1 o presente despacho, por c\u00f3pia digitada, instru\u00edda com c\u00f3pia da peti\u00e7\u00e3o referida acima, como of\u00edcio a ser entregue pelo patrono do interessado no local adequado, mediante protocolo, comprovando-se nos autos no prazo de 5 dias. Observe o destinat\u00e1rio que a resposta dever\u00e1 ser encaminhada diretamente \u00e0 Unidade de Processamento Judicial (UPJ) das 41\u00ba a 45\u00ba Varas C\u00edveis Centrais, F\u00f3rum Jo\u00e3o Mendes J\u00fanior, P\u00e7a. Jo\u00e3o Mendes, s\/n, CEP 01501-900, sala 1425, 14\u00ba andar, e-mail: upj41a45@tjsp.jus.br, no prazo de 15 dias. Int. - ADV: ROBERTA SEVO VILCHE (OAB 235172\/SP), VERA LUCIA DE CARVALHO RODRIGUES (OAB 70001\/SP), ROBERTA SEVO VILCHE (OAB 235172\/SP), ROBERTA SEVO VILCHE (OAB 235172\/SP), SELMA BRILHANTE TALLARICO DA SILVA (OAB 144668\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0148281-40.2010.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1042210-79.2019.8.26.0100 - Procedimento Comum C\u00edvel - Indeniza\u00e7\u00e3o por Dano Moral - Edite Batroff - Vistos. Homologo o acordo celebrado entre as partes e JULGO EXTINTA A EXECU\u00c7\u00c3O, com fulcro no art. 924, III, do CPC. Determino o levantamento da penhora realizada sobre o veiculo, atrav\u00e9s do sistema RENAJUD. Determino que a parte executada deposite ou comprove o recolhimento das custas finais - 1% sobre o valor da execu\u00e7\u00e3o (valor considerado correto para quita\u00e7\u00e3o), com a ressalva no valor m\u00ednimo de 5 UFESPS e m\u00e1ximo de 3.000 UFESPS, no prazo de 15 dias. P.R.I.C. Arquivem-se os autos. - ADV: ANTONIO CLOVIS DIAS DE MELO (OAB 126200\/SP), SANDRO RENATO MENDES (OAB 166618\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1042210-79.2019.8.26.0100"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0005493-03.2023.8.26.0664 (processo principal 1006860-84.2019.8.26.0664) - Cumprimento de Senten\u00e7a contra a Fazenda P\u00fablica Mediante Execu\u00e7\u00e3o Invertida - Aposentadoria por Tempo de Servi\u00e7o (Art. 52\/4) - Luiz Carlos Caneli de Freitas - Vistos. Observada a certid\u00e3o da z. Serventia de fls. 218, e em reavalia\u00e7\u00e3o dos autos, tem-se que os valores aqui discutidos n\u00e3o ser\u00e3o requisitados pelo Portal Eletr\u00f4nico do Devedor (que possui procedimento diverso), mas sim pelo sistema Precweb, uma vez que o processo prov\u00e9m de compet\u00eancia delegada. Neste caso, o tr\u00e2nsito em julgado do processo de conhecimento \u00e9 exig\u00eancia do pr\u00f3prio sistema Precweb e, sem a data, n\u00e3o \u00e9 poss\u00edvel o cadastro do RPV\/Precat\u00f3rio. Assim, aguarde-se o Publica\u00e7\u00e3o Oficial do Tribunal de Justi\u00e7a do Estado de S\u00e3o Paulo - Lei Federal n\u00ba 11.419\/06, art. 4\u00baDisponibiliza\u00e7\u00e3o: segunda-feira, 22 de julho de 2024Di\u00e1rio da Justi\u00e7a Eletr\u00f4nico - Caderno Judicial - 1\u00aa Inst\u00e2ncia - Interior - Parte IIIS\u00e3o Paulo, Ano XVII - Edi\u00e7\u00e3o 4011 4739julgamento da apela\u00e7\u00e3o, no processo principal e seu tr\u00e2nsito em julgado. Int. - ADV: RODRIGO DE OLIVEIRA CEVALLOS (OAB 265041\/SP), ROG\u00c9RIO ADRIANO ALVES NARVAES (OAB 258293\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0005493-03.2023.8.26.0664"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 1002292-04.2024.8.26.0291 - Procedimento Comum C\u00edvel - Dissolu\u00e7\u00e3o - R.B. - Vistos. Promova a serventia a pesquisa de CPF das pessoas indicadas a fls.45 pelo sistema INFOJUD. Intimem-se. - ADV: RUI CESAR LENHARI (OAB 265046\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "1002292-04.2024.8.26.0291"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0002862-85.2024.8.26.0362 (processo principal 1008774-22.2019.8.26.0362) - Cumprimento de Senten\u00e7a contra a Fazenda P\u00fablica - Aux\u00edlio-Doen\u00e7a Previdenci\u00e1rio - Carolina da Silva Vicente - Vistos. 1 - Diante da concord\u00e2ncia do exequente, homologo o c\u00e1lculo apresentado pelo executado a fls. 2\/4 desta A\u00e7\u00e3o Declarat\u00f3ria de Benef\u00edcio Previdenci\u00e1rio, ora em fase de Execu\u00e7\u00e3o. 2 Forne\u00e7am as partes os dados necess\u00e1rios nos termos da Resolu\u00e7\u00e3o n\u00ba 168\/2011 de 05\/12\/2011, Cap\u00edtulo I, artigo 8\u00ba, incisos XVII e XVIII se o caso. 3 - Deixo de determinar a intima\u00e7\u00e3o do INSS para manifesta\u00e7\u00e3o sobre eventual exist\u00eancia de d\u00e9bito em nome dos credores (artigo 30 da Lei 12.431\/2011, que regulamentou os par\u00e1grafos \u00a7\u00a7 9\u00ba e 10\u00ba do artigo 100 da Constitui\u00e7\u00e3o Federal -introduzidos pela Emenda Constitucional n\u00ba 62\/2009), visto que, no julgamento da ADI 4357 pelo plen\u00e1rio do C. STF foram declarados inconstitucionais os \u00a7\u00a7 9\u00ba e 10\u00ba do artigo 100 da CF. 4 - Certificado o decurso do prazo para recurso, requisite-se o pagamento e aguarde-se not\u00edcia sobre a disponibiliza\u00e7\u00e3o dos valores. 5 Intime-se - ADV: RICARDO ALEXANDRE DA SILVA (OAB 212822\/SP), JOS\u00c9 EDJACKSON SILVA DOS SANTOS (OAB 436316\/SP), GELSON LUIS GON\u00c7ALVES QUIRINO (OAB 214319\/SP)",
+        "local": "JC - 1\u00ba GRAU",
+        "numero_processo": "0002862-85.2024.8.26.0362"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "Processo 0000830-39.2021.8.26.0451 (processo principal 1003067-68.2017.8.26.0451) - Cumprimento de senten\u00e7a - Esp\u00e9cies de Contratos - Rubens Antonio Pinto Dalera - Aeroclube de Piracicaba - Ci\u00eancia do resultado da pesquisa de endere\u00e7os, devendo a parte solicitante da mesma manifestar-se em termos de prosseguimento. - ADV: WAGNER AURELIO DA ROCHA (OAB 389392\/SP), DIEGO ALVARADO DE SA (OAB 326174\/SP), SANY ISABEL RODRIGUES (OAB 339782\/SP), LIVAN PEREIRA DA SILVA (OAB 309479\/SP)",
+        "local": "Cumprimento",
+        "numero_processo": "0000830-39.2021.8.26.0451"
+      },
+      {
+        "dano_moral": "N\u00c3O",
+        "valor_dano_moral": null,
+        "dano_material": "N\u00c3O",
+        "valor_dano_material": null,
+        "movimentacao": "N\u00ba 1012401-63.2022.8.26.0286 - Processo Digital. Peti\u00e7\u00f5es para juntada devem ser apresentadas exclusivamente por meio eletr\u00f4nico, nos termos do artigo 7\u00ba da Res. 551\/2011 - Apela\u00e7\u00e3o C\u00edvel - Itu - Apelante: Jardim Alvorada Empreendimento Imobili\u00e1rio Spe Ltda - Apelada: Luzia Aparecida dos Santos (Justi\u00e7a Gratuita) - Apelado: Jose Raimundo dos Santos (Justi\u00e7a Gratuita) - III. Pelo exposto, considerando a exist\u00eancia de ac\u00f3rd\u00e3o divergente, ADMITO o recurso especial pelo art. 105, III, da Constitui\u00e7\u00e3o Federal, combinado com o art. 1.030, V, \u201cc\u201d, do C\u00f3digo de Processo Civil. Subam os autos, oportunamente, ao E. Superior Tribunal de Justi\u00e7a, observando a Secretaria as formalidades legais. - Magistrado(a) Heraldo de Oliveira (Pres. Se\u00e7\u00e3o de Direito Privado) - Advs: Elisangela Flor\u00eancio de Farias (OAB: 252086\/SP) - Gustavo Musqueira de Camargo (OAB: 440390\/SP) - Jo\u00e3o Guilherme Mercante de Campos (OAB: 447496\/SP) - P\u00e1tio do Col\u00e9gio - 7\u00ba andar - Sala 705",
+        "local": "JC - 2\u00ba GRAU",
+        "numero_processo": "1012401-63.2022.8.26.0286"
+      }
+    ],
+    "signature_instructions": "Dados a entrada incial e o motivo da falha na checagem, corrija-o.\nRetire qualquer texto que apareceu antes dos valores requisitados como 'Claro, aqui est\u00e3o os dados em formato CSV:'.\nOs campos de 'valor_alguma_coisa' devem ser n\u00famero. Trocar 'null' ou 'N\u00e3o mencionado' pelo n\u00famero 0.",
+    "signature_prefix": "Resposta:",
+    "extended_signature_instructions": "Dados a entrada incial e o motivo da falha na checagem, corrija-o.\nRetire qualquer texto que apareceu antes dos valores requisitados como 'Claro, aqui est\u00e3o os dados em formato CSV:'.\nOs campos de 'valor_alguma_coisa' devem ser n\u00famero. Trocar 'null' ou 'N\u00e3o mencionado' pelo n\u00famero 0.",
+    "extended_signature_prefix": "Resposta:"
+  }
+}
