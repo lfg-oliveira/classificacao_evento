@@ -69,18 +69,6 @@ def f1_loss(
     return f1
 
 
-if True:
-    from sqlalchemy import create_engine
-
-    engine = create_engine("mysql+pymysql://root:1234@localhost/ares_local")
-    conn = engine.connect()
-    df = pd.read_sql(
-        """SELECT e.descricao, c.id as saida
-    FROM ares_local.evento e
-    INNER JOIN ares_local.classe c ON c.id = e.classe_id""",
-        conn,
-    )
-
 # df = pd.read_csv("DB.csv")
 print(df.shape)
 df = df.dropna()
